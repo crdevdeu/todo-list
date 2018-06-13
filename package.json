@@ -1,0 +1,38 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "A simple todo list app written in React.",
+  "scripts": {
+    "build": "webpack --config tools/webpack/production.config.js",
+    "lint": "eslint ./src --ext .js",
+    "start": "webpack-dev-server --config tools/webpack/development.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lodgify/todo-list.git"
+  },
+  "author": "Lodgify",
+  "private": true,
+  "homepage": "https://github.com/lodgify/todo-list#readme",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "html-webpack-plugin": "^3.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
