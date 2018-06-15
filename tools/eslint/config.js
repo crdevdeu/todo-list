@@ -14,6 +14,6 @@ module.exports = {
   plugins: ['babel'],
   rules: {
     'no-console': 2,
-    'max-len': [2, { "code": 80 }],
+    'max-len': [2, { code: 80 }],
   },
 };
